@@ -1,0 +1,24 @@
+:root {
+  --background-color-primary: #13121a;
+  --background-color-secondary: #24232b;
+  --foreground-color-primary: #e6e5ea;
+  --foreground-color-secondary: #4b4952;
+  --main-color-primary: #a4ffaf;
+  --main-color-secondary: #f8cd62;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu Mono", monospace;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  color: var(--foreground-color-primary);
+  background-color: var(--background-color-primary);
+}
