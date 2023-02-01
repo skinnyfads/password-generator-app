@@ -34,8 +34,6 @@
     copied = true;
     setTimeout(() => (copied = false), 2000);
   }
-
-  $: console.log("yeah");
 </script>
 
 <main>
